@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Barcode &amp; QR Code Scanner</string>
+    <string name="take_barcode_picture">Take Barcode Picture</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="open_camera">OPEN CAMERA</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Live Ids-->
+    <!-- <string name="banner_home_footer"></string>
+     <string name="interstitial_full_screen"></string>
+     <string name="banner_top"></string>
+ -->
+
+    <!--Test Ids-->
+
+    <string name="banner_home_footer">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_top">ca-app-pub-3940256099942544/6300978111</string>
+    <!--<string name="native_advanced">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="test_device_id">3456ED1DB4EB693F5DB9C5BCB95AAFAC</string>
+-->
+</resources>

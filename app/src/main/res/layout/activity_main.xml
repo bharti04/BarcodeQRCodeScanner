@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/gallary"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/btnTakePicture"
+        android:text="Scan from Gallery"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:id="@+id/gallery"/>
+
+    <Button
+        android:id="@+id/btnScanBarcode"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/gallery"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/scan"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/btnScanBarcode"
+        android:text="Scan"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:id="@+id/scan"/>
+
+</RelativeLayout>
